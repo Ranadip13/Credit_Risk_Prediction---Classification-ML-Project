@@ -2,7 +2,7 @@
 This project is based on The German Credit Risk dataset. The goal is to predict if this loan credit would be a risk to the bank or not? In simple terms, if the loan amount is given to the applicant, will they pay back or become a defaulter?
 Given the numerous applications that need to be processed daily, having a predictive model in place would be beneficial. Such a model can assist executives by providing early insights into the approval or rejection of new loan applications, helping them perform their tasks more efficiently.
 
-In the case study below, a step-by-step approach to creating a Machine Learning predictive model for such scenarios will be discussed. This flow can be used as a template to solve any supervised ML classification problem.
+In this project, a step-by-step approach to creating a Machine Learning predictive model for such scenarios was discussed. This flow can be used as a template to solve any supervised ML classification problem.
 The flow of the case study is as below:
 - Reading the data in python
 - Defining the problem statement
