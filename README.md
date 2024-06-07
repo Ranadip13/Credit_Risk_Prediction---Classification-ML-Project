@@ -24,7 +24,7 @@ The flow of the case study is as below:
 - Selecting the best Model
 - Deploying the best model in production
 
-### Data description: The business meaning of each column in the data is as below
+#### Data description: The business meaning of each column in the data is as below
 - GoodCredit: Whether the issued loan was a good decision or bad
 - checkingstatus: Status of existing checking account.
 - duration: Duration of loan in months
