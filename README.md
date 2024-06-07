@@ -24,6 +24,29 @@ The flow of the case study is as below:
 - Selecting the best Model
 - Deploying the best model in production
 
+Data description: The business meaning of each column in the data is as below
+- GoodCredit: Whether the issued loan was a good decision or bad
+- checkingstatus: Status of existing checking account.
+- duration: Duration of loan in months
+- history: Credit history of the applicant
+- purpose: Purpose for the loan
+- amount: Credit amount
+- savings: Savings account/bonds
+- employ: Present employment since
+- installment: Installment rate in percentage of disposable income
+- status: Personal status and sex
+- others: Other debtors / guarantors for the applicant
+- residence: Present residence since
+- property: Property type of applicant
+- age: Age in years
+- otherplans: Other installment plans
+- housing: Housing
+- cards: Number of existing credits at this bank
+- job: Job
+- liable: Number of people being liable to provide maintenance for
+- tele: Is the Telephone registered or not
+- foreign: Is the applicant a foreign worker
+
 Following the above steps, various classification machine learning algorithms were tried, including Logistic Regression, Decision Trees, Random Forest, AdaBoost, XGBoost, KNN, Support Vector Machines (SVM), and Naive Bayes, and their average accuracies were calculated. In this case, multiple algorithms produced similar average accuracy. Therefore, any one of them could be chosen. SVM was selected as the final model due to its fast performance on this high-dimensional data.
 
 The final step is to deploy the model. To deploy the model, the following steps are followed.
