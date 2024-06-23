@@ -1,4 +1,4 @@
-# Credit_Risk_Prediction---Classification-ML-Project
+# Credit Risk Prediction - Classification ML Project
 This project is based on The German Credit Risk dataset. The goal is to predict if this loan credit would be a risk to the bank or not? In simple terms, if the loan amount is given to the applicant, will they pay back or become a defaulter?
 Given the numerous applications that need to be processed daily, having a predictive model in place would be beneficial. Such a model can assist executives by providing early insights into the approval or rejection of new loan applications, helping them perform their tasks more efficiently.
 
